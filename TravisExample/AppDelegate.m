@@ -20,6 +20,8 @@
 {
 #ifdef RELEASE
 	// Initialize TestFlight
+    
+    NSLog(@"Hello World!");
 	[TestFlight takeOff:NSStringize(TESTFLIGHT_APP_TOKEN)];
 
 	// Initialize HockeyApp
